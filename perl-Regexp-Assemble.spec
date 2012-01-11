@@ -8,13 +8,13 @@
 Summary:	Regexp::Assemble - Assemble multiple Regular Expressions into a single RE
 #Summary(pl.UTF-8):	
 Name:		perl-Regexp-Assemble
-Version:	0.34
+Version:	0.35
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Regexp/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ddbf21d4d2e03798d351a34e79cafa30
+# Source0-md5:	315796ece5bfb69b166846ced911cf0e
 URL:		http://search.cpan.org/dist/Regexp-Assemble/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
