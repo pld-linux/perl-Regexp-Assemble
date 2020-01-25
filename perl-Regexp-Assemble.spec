@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Assemble
 Summary:	Regexp::Assemble - Assemble multiple Regular Expressions into a single RE
