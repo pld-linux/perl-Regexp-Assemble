@@ -8,7 +8,7 @@ Summary:	Regexp::Assemble - Assemble multiple Regular Expressions into a single 
 #Summary(pl.UTF-8):	
 Name:		perl-Regexp-Assemble
 Version:	0.35
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
