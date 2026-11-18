@@ -7,13 +7,13 @@
 Summary:	Regexp::Assemble - Assemble multiple Regular Expressions into a single RE
 #Summary(pl.UTF-8):	
 Name:		perl-Regexp-Assemble
-Version:	0.35
-Release:	2
+Version:	0.38
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Regexp/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	315796ece5bfb69b166846ced911cf0e
+Source0:	https://www.cpan.org/authors/id/R/RS/RSAVAGE/%{pdir}-%{pnam}-%{version}.tgz
+# Source0-md5:	75905c73b33c123ce085fd7d194dd95e
 URL:		http://search.cpan.org/dist/Regexp-Assemble/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
-cp -a eg $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -a examples $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
